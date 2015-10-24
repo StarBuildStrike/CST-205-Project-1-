@@ -1,0 +1,13 @@
+#path to folder with images 
+
+folder = "path"
+
+pictures = [] 
+
+counter = 0
+
+for counter in range (0,9):
+  imagePath = folder + str(counter + 1) + ".png"
+  print(imagePath)
+  pictures.append(makePicture(imagePath))
+  counter += 1 
